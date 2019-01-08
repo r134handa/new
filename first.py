@@ -1,5 +1,3 @@
-
-
 a = ["bbm","pager"]
 if "bbm" in a:
     print(a)
