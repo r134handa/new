@@ -1,11 +1,9 @@
+class count:
+    def __init__(abc,a):
+        abc.a = a
 
-
-a = ["bbm","pager"]
-if "bbm" in a:
-    print(a)
-a.append("whatsapp")
-print(a)
-a.insert(0,"facetime")
-print(a)
-del a[1]
-print(a)
+    def mf(abc):
+        print("mah name " + abc.a)
+p = count("raman")
+print(p.a)
+p.mf()
